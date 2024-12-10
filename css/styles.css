@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    padding: 0;
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
@@ -8,26 +7,12 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
-    padding: 0;
 }
 
-.visually-hidden {
-    display: none;
-}
 
 .header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     background-color: #FFFFFF;
     border-bottom: 1px solid #E7E9FC;
-    height: 72px;
-}
-
-.header .container {
-    display: flex;
-    justify-content: space-between;
 }
 
 .header ul li {
@@ -45,16 +30,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .header ul {
     margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-.main-navigate {
-    display: flex;
-}
-
-.main-navigate--list {
-    gap: 40px;
 }
 
 .main-navigate--list a {
@@ -88,7 +63,6 @@ address {
 }
 
 .logo {
-    display: inline-block;
     color: #F4F4FD;
     font-size: 18px;
     font-weight: 700;
@@ -108,23 +82,11 @@ address {
     /*width: 100%;*/
     /*max-width: 1128px;*/
     width: 1158px;
-    padding: 0 15px;
     margin: 0 auto;
 }
 
 .hero {
     background-color: #2E2F42;
-    padding: 0;
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.hero .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .hero h1 {
@@ -138,7 +100,6 @@ address {
 .button {
     min-width: 169px;
     background-color: #4D5AE5;
-    padding: 16px 32px;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -153,10 +114,6 @@ address {
 }
 
 section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 120px 0 120px 0;
     background-color: #FFFFFF;
 }
 
@@ -177,17 +134,11 @@ section h3 {
 }
 
 section ul {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 24px;
     margin: 0;
-    padding: 0;
 }
 
 section ul li {
     list-style-type: none;
-    flex: 0 1 calc(25% - 18px);
 }
 
 section p {
@@ -196,48 +147,22 @@ section p {
 
 .card {
     background-color: #FFFFFF;
-    box-shadow: 0 2px 1px 0 #2E2F4214;
     border-radius:  0 0 4px 4px;
     overflow: hidden;
 }
 
 .card img {
     object-fit: contain;
-    display: block;
     width: 100%;
-}
-
-.card-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 32px 16px;
 }
 
 .team {
     background-color: #F4F4FD;
 }
 
-.portfolio ul {
-    row-gap: 48px;
-}
-
-.portfolio ul li {
-    flex: 0 1 calc((100% - 54px) / 3);
-    box-shadow: none;
-    border: 1px solid #E7E9FC;
-}
-
-.portfolio .card-content {
-    align-items: start;
-}
 
 .footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background-color: #2E2F42;
-    padding: 100px 0 100px 0;
 }
 
 .footer .logo {
@@ -248,5 +173,4 @@ section p {
     font-size: 16px;
     line-height: 24px;
     color: #F4F4FD;
-    max-width: 264px
 }
