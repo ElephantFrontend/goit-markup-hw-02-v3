@@ -16,18 +16,18 @@ body {
     text-decoration: none;
 }
 
-.header .logo {
-    color: #2E2F42;
+.header .logo--highlighted {
+    color: #2e2f42;
 }
 
-.main-navigate--list a {
+.main-navigate--item {
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     color: #2E2F42;
 }
 
-.main-navigate--list a:hover {
+.main-navigate--item:hover {
     color: #404BBF;
 }
 
@@ -35,19 +35,19 @@ address {
     font-style: normal;
 }
 
-.contacts a {
+.contacts--item {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     color: #434455;
 }
 
-.contacts a:hover {
+.contacts--item:hover {
     color: #404BBF;
 }
 
 .logo {
-    color: #F4F4FD;
+    color: #4d5ae5;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -58,8 +58,8 @@ address {
     font-family: "Raleway", sans-serif;
 }
 
-.logo span {
-    color: #4D5AE5;
+.logo--highlighted {
+    color: #f4f4fd;
 }
 
 .hero {
