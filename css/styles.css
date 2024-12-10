@@ -104,10 +104,18 @@ section {
     text-align: center;
 }
 
+.section-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
 section h3 {
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
