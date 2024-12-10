@@ -20,14 +20,15 @@ body {
     color: #2e2f42;
 }
 
-.main-navigate--item {
+.main-navigate--item a{
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
-.main-navigate--item:hover {
+.main-navigate--item a:hover {
     color: #404BBF;
 }
 
